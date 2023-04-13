@@ -1,0 +1,182 @@
+style.css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  /* Sidebar styles */
+  aside {
+    background-color: #ddd;
+    padding: 10px;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* Main content styles */
+  main {
+    margin-left: 220px;
+    padding: 10px;
+  }
+  
+  /* Project list styles */
+  #project-list {
+    margin-bottom: 20px;
+  }
+  
+  #project-list h2 {
+    margin-top: 0;
+  }
+  
+  #project-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #project-list li {
+    margin-bottom: 10px;
+  }
+  
+  #project-list a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Task list styles */
+  #task-list {
+    margin-bottom: 20px;
+  }
+  
+  #task-list h2 {
+    margin-top: 0;
+  }
+  
+  #task-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #task-list th {
+    text-align: left;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #task-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #task-list td.completed {
+    color: green;
+  }
+  
+  #task-list td.overdue {
+    color: red;
+  }
+  
+  /* Calendar widget styles */
+  #calendar {
+    margin-bottom: 20px;
+  }
+  
+  #calendar h2 {
+    margin-top: 0;
+  }
+  
+  #calendar table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #calendar th {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #calendar td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #calendar td.today {
+    background-color: #e6f7ff;
+  }
+  
+  /* Progress tracker styles */
+  #progress-tracker {
+    margin-bottom: 20px;
+  }
+  
+  #progress-tracker h2 {
+    margin-top: 0;
+  }
+  
+  #progress-tracker .progress-bar {
+    background-color: #e6e6e6;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  #progress-tracker .progress-bar span {
+    display: block;
+    height: 100%;
+    background-color: #007bff;
+  }
+  
+  #progress-tracker .progress-bar span.task-1 {
+    width: 75%;
+  }
+  
+  #progress-tracker .progress-bar span.task-2 {
+    width: 25%;
+  }
+  
+  /* Activity feed styles */
+  #activity-feed {
+    margin-bottom: 20px;
+  }
+  
+  #activity-feed h2 {
+    margin-top: 0;
+  }
+  
+  #activity-feed ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #activity-feed li {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  #activity-feed .activity-date {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  /* Statistics styles */
+  #stats {
+    margin-bottom: 20px;
+}
