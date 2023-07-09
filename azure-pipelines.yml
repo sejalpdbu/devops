@@ -17,4 +17,4 @@ steps:
 - task: PublishBuildArtifacts@1
 - task: AzureStaticWebApp@0
   inputs:
-    azure_static_web_apps_api_token: '07ba836355a817f1579ea39ad576391479d944c870855155d707aebb63e0151b3-e13c6b11-2557-4134-86d2-2dae32821074010189666'
+    azure_static_web_apps_api_token: '361174a9807a3004669b2899d038e91ea0bf9d9e66165545b1afe2397c895daa3-019a8689-eeac-4d28-aad4-f50992de2b45010216708'
